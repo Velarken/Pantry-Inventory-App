@@ -15,6 +15,6 @@ const PORT = process.env.DEFAULT_PORT || 3000;
 app.use(appRouter);
 
 app.listen(PORT, () => {
-    console.log('Server started...');
+    console.log('Dev server started...');
     console.log('Listening on port:', PORT);
 })
