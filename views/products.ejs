@@ -4,5 +4,12 @@
 <body>
     <%- include('./partials/nav') %>
     All available products
+    <% products.map(product => { %>
+        <div class="product-row">
+            <p><strong><%= product.food_name  %></strong></p>
+            <p><%= product.price %></p>
+            <p><%= product.category %></p>
+        </div>
+    <% }) %>
 </body>
 </html>
