@@ -5,3 +5,13 @@ nav {
     justify-content: space-evenly;
     list-style-type: none;
 }
+.product-row {
+    display:flex;
+    width:80vw;
+    align-items: center;
+    text-align: center;
+}
+.product-row>* {
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
